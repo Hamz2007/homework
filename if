@@ -3,3 +3,4 @@ x=["hamza","ali","abdullah"]
 
 random_name=random.choice(x)
 print(random_name)
+print("-"*30)
