@@ -1,22 +1,14 @@
 while True:
-    print("playr1")
-    a=int(input( "Choose a number from 1-5:"))
-    import random
-    b=print(random.randrange(1,6))
-
-    if a==b:
-        print("won")
-
-    elif a!=b :
-        print("lost")
-    print("-"*30)    
-    print("playr2")
-    c=int(input(" Choose a number from 1-5:"))
-    f=print(random.randrange(1,6))
-
-    if c==f:
-        print("won")
-
-    elif c!=f:
-        print("lost")
-        print("-"*30)
+    A=input("Enter your successful and very good and good and fail:")
+    
+    match A. upper ():
+        case"SUCCESSFUL":
+            print("degrees form 100 to 90")
+        case"VERY GOOD":
+            print("degrees form 89 to 80")
+        case"GOOD":
+            print("degrees form 79 to 70")
+        case"FILE":
+            print("degrees form 59 to 1")
+        case hamz:
+            print(f"{hamz}the entyr is wrong")
